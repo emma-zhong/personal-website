@@ -41,6 +41,28 @@ export default function Footer() {
             <p className="ml-2 h-7">github</p>
           </a>
         </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://open.spotify.com/user/yxdlsrj5m4asp0s9ka9p7l8s8?si=0f60f8d627724eda"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">spotify</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="mailto:emma_zhong@berkeley.edu"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">email</p>
+          </a>
+        </li>
       </ul>
     </footer>
   )
