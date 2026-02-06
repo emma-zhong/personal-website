@@ -59,7 +59,7 @@ const COURSE_TERMS: Term[] = [
 export default function Courses() {
   return (
     <section>
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Courses</h1>
+      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">courses</h1>
 
       <div className="relative">
         <div className="absolute left-6 top-0 bottom-0 w-px bg-neutral-200 dark:bg-neutral-800" />
