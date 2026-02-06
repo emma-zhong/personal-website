@@ -24,6 +24,17 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
+            href="mailto:emma_zhong@berkeley.edu"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">email</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
             href="https://www.linkedin.com/in/emmajzhong/"
           >
             <ArrowIcon />
@@ -50,17 +61,6 @@ export default function Footer() {
           >
             <ArrowIcon />
             <p className="ml-2 h-7">spotify</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="mailto:emma_zhong@berkeley.edu"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">email</p>
           </a>
         </li>
       </ul>
