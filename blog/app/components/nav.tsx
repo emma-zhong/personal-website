@@ -6,6 +6,9 @@ const navItems = {
   },
   '/courses': {
     name: 'courses',
+  },
+  '/misc': {
+    name: 'misc',
   }
 }
 
