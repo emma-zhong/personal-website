@@ -62,13 +62,13 @@ export default function Courses() {
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">courses</h1>
 
       <div className="relative">
-        <div className="absolute left-6 top-0 bottom-0 w-px bg-neutral-200 dark:bg-neutral-800" />
+        <div className="absolute left-6 top-0 bottom-0 w-px bg-neutral-300 dark:bg-neutral-700" />
 
         <div className="space-y-8">
           {COURSE_TERMS.map(({ term, courses }) => (
             <div key={term} className="flex items-start">
               <div className="flex flex-col items-center mr-6">
-                <div className="w-3 h-3 rounded-full bg-neutral-900 mt-1" />
+                <div className="w-3 h-3 rounded-full bg-neutral-900 dark:bg-neutral-100 mt-1" />
               </div>
 
               <div className="flex-1">
