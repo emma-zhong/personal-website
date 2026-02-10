@@ -19,7 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: blog   # <-- IMPORTANT: your Next app lives here
+        working-directory: blog
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,8 +29,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: npm
-          cache-dependency-path: blog/package-lock.json
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -37,19 +41,19 @@ jobs:
           static_site_generator: next
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: npm run build
+        run: pnpm run build
 
-      # If you are NOT using output: "export" in next.config.js, you must run export:
+      # REQUIRED for GitHub Pages
       - name: Export static site
-        run: npx next export
+        run: pnpm exec next export
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: blog/out   # <-- IMPORTANT: out is inside /blog
+          path: blog/out
 
   deploy:
     environment:
