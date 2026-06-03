@@ -5,10 +5,25 @@ type Term = {
 
 const COURSE_TERMS: Term[] = [
   {
+    term: "fall 2026",
+    courses: [
+      "cs 170: efficient algorithms and intractable problems",
+      "cs 189: introduction to machine learning",
+      "math 113: introduction to abstract algebra",
+      "music 26ac: music in american culture",
+      "music 141a: philharmonia orchestra",
+    ],
+  },
+  {
+    term: "summer 2026",
+    courses: [
+      "cs 160: user interface design and development",
+    ],
+  },
+  {
     term: "spring 2026",
     courses: [
       "cs 168: introduction to the internet: architecture and protocols",
-      "cs 189: introduction to machine learning",
       "data 140: probability for data science",
       "music 141a: philharmonia orchestra",
       "cs 370: adaptive instruction methods in computer science",
