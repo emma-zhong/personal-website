@@ -177,9 +177,9 @@ export default async function Misc() {
                                     <div className="mt-2 text-sm leading-tight text-neutral-900 dark:text-neutral-100">
                                         {artist.name}
                                     </div>
-                                    <div className="text-xs text-neutral-500 dark:text-neutral-500">
+                                    {/* <div className="text-xs text-neutral-500 dark:text-neutral-500">
                                         last 4 weeks
-                                    </div>
+                                    </div> */}
                                 </a>
                             ))}
                         </div>
