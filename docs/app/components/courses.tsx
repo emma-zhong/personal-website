@@ -7,11 +7,12 @@ const COURSE_TERMS: Term[] = [
   {
     term: "fall 2026",
     courses: [
-      "cs 170: efficient algorithms and intractable problems",
       "cs 189: introduction to machine learning",
       "math 113: introduction to abstract algebra",
-      "music 26ac: music in american culture",
+      "compsci 194: star assessments for proficiency-based learning",
+      "music 128: music and data",
       "music 141a: philharmonia orchestra",
+      "cs 399: cs 61a ta"
     ],
   },
   {
