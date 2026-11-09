@@ -8,7 +8,7 @@ export default function Page() {
       </h1>
       <p className="mb-4">
         {`i'm a third year at uc berkeley studying data science and minoring in music. 
-        my interests are in machine learning, data engineering, and computer science education.`}
+        my interests are in ai for cs education and data engineering.`}
       </p>
       {/* <div className="my-8">
         <BlogPosts />
