@@ -35,7 +35,7 @@ export function InstagramUnsaveScript() {
           className="mt-4 border-l border-neutral-300 pl-4 text-neutral-700 dark:border-neutral-700 dark:text-neutral-300"
         >
           <p className="font-medium text-neutral-900 dark:text-neutral-100">
-            used muse to automatically sort all my saved posts into collections, and then i wanted to delete all of the posts in sepcific collections at once.
+            can use muse to first automatically sort all saved posts into collections.
           </p>
           <ul className="mt-2 list-disc space-y-2 pl-4">
             <li>download the script above.</li>
