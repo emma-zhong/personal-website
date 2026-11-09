@@ -1,4 +1,3 @@
-import { GithubActivitySection } from './github-activity'
 import { LetterboxdSection } from './letterboxd'
 import { SpotifySection } from './spotify'
 
@@ -9,7 +8,6 @@ export default function MiscPage() {
         miscellaneous
       </h1>
       <div className="space-y-10">
-        <GithubActivitySection />
         <LetterboxdSection />
         <SpotifySection />
       </div>
