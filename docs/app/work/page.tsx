@@ -1,4 +1,5 @@
 import { GithubActivitySection } from '../misc/github-activity'
+import { InstagramUnsaveScript } from './unsave-script'
 
 export default function WorkPage() {
   return (
@@ -8,6 +9,7 @@ export default function WorkPage() {
       </h1>
       <div className="space-y-10">
         <GithubActivitySection />
+        <InstagramUnsaveScript />
       </div>
     </section>
   )
