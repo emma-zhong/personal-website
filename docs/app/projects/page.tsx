@@ -1,4 +1,5 @@
 import { GithubActivitySection } from '../misc/github-activity'
+import { PensiveSlipDayCounter } from './pensive-counter'
 import { InstagramUnsaveScript } from './unsave-script'
 
 export default function ProjectsPage() {
@@ -32,6 +33,7 @@ export default function ProjectsPage() {
             this site, built with next.js and tailwind css to share my work, courses, and interests
           </p>
         </div>
+        <PensiveSlipDayCounter />
       </div>
     </section>
   )
