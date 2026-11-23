@@ -1,11 +1,11 @@
 import { GithubActivitySection } from '../misc/github-activity'
 import { InstagramUnsaveScript } from './unsave-script'
 
-export default function WorkPage() {
+export default function ProjectsPage() {
   return (
     <section>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">
-        work
+        projects
       </h1>
       <div className="space-y-10">
         <GithubActivitySection />
